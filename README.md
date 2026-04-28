@@ -35,9 +35,9 @@ For most use cases, the Bayut API is the best starting point. It covers the most
 
 The Bayut API is the most comprehensive option for UAE property data. It is built and maintained by Happy Endpoint and available on RapidAPI.
 
-- API: https://rapidapi.com/happyendpoint/api/bayut14/
+- API: [https://rapidapi.com/happyendpoint/api/uae-real-estate3](https://rapidapi.com/happyendpoint/api/uae-real-estate3)
 - Docs: https://bayutapi.dev
-- Base URL: `https://bayut14.p.rapidapi.com`
+- Base URL: `https://uae-real-estate3.p.rapidapi.com`
 
 ### What data is available
 
@@ -82,13 +82,13 @@ The Bayut API is the most comprehensive option for UAE property data. It is buil
 import requests
 
 headers = {
-    "x-rapidapi-host": "bayut14.p.rapidapi.com",
+    "x-rapidapi-host": "uae-real-estate3.p.rapidapi.com",
     "x-rapidapi-key": "YOUR_KEY"
 }
 
 # Step 1 - get location ID
 r = requests.get(
-    "https://bayut14.p.rapidapi.com/autocomplete",
+    "https://uae-real-estate3.p.rapidapi.com/autocomplete",
     params={"query": "dubai marina"},
     headers=headers
 )
@@ -97,7 +97,7 @@ location_id = r.json()["data"]["locations"][0]["externalID"]
 
 # Step 2 - search properties
 r = requests.get(
-    "https://bayut14.p.rapidapi.com/search-property",
+    "https://uae-real-estate3.p.rapidapi.com/search-property",
     params={
         "purpose": "for-sale",
         "location_ids": location_id,
@@ -190,7 +190,7 @@ Calculate rental yields and compare areas:
 def rental_yield(location_id, rooms="1"):
     # get sale prices
     sale = requests.get(
-        "https://bayut14.p.rapidapi.com/search-property",
+        "https://uae-real-estate3.p.rapidapi.com/search-property",
         params={"purpose": "for-sale", "location_ids": location_id,
                 "property_type": "apartments", "rooms": rooms},
         headers=headers
@@ -198,7 +198,7 @@ def rental_yield(location_id, rooms="1"):
 
     # get rental prices
     rent = requests.get(
-        "https://bayut14.p.rapidapi.com/search-property",
+        "https://uae-real-estate3.p.rapidapi.com/search-property",
         params={"purpose": "for-rent", "location_ids": location_id,
                 "property_type": "apartments", "rooms": rooms},
         headers=headers
@@ -217,7 +217,7 @@ Use the `/transactions` endpoint to pull historical data and analyse price trend
 ```python
 # Get 24 months of transaction data for an area
 r = requests.get(
-    "https://bayut14.p.rapidapi.com/transactions",
+    "https://uae-real-estate3.p.rapidapi.com/transactions",
     params={
         "purpose": "for-sale",
         "location_ids": "5003",  # Dubai Marina
@@ -237,7 +237,7 @@ Build a searchable directory of Dubai real estate agents:
 ```python
 # Get all agents in Dubai Marina
 r = requests.get(
-    "https://bayut14.p.rapidapi.com/agent-search",
+    "https://uae-real-estate3.p.rapidapi.com/agent-search",
     params={
         "location_ids": "5003",
         "purpose": "for-sale",
@@ -317,7 +317,7 @@ Full list: https://rapidapi.com/user/happyendpoint
 
 ## Links
 
-- Bayut API: https://rapidapi.com/happyendpoint/api/bayut14/
+- Bayut API: https://rapidapi.com/happyendpoint/api/uae-real-estate3/
 - Bayut API docs: https://bayutapi.dev
 - Happy Endpoint: https://happyendpoint.com
 - Twitter: https://x.com/happyendpointhq
