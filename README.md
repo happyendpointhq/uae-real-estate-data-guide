@@ -341,6 +341,23 @@ Found something outdated or missing? Open an issue or PR. Market data changes fa
 
 ---
 
+## Disclaimer
+
+Happy Endpoint is an independent provider. This project is **not affiliated
+with, endorsed by, sponsored by, or connected to** any of the websites,
+platforms, retailers, or marketplaces referenced here or reachable through the
+underlying APIs.
+
+All product names, brands, trademarks, and registered trademarks are the
+property of their respective owners. Any reference to them is descriptive only,
+to identify the subject matter of the data, and does not imply any association
+or endorsement.
+
+Users are responsible for ensuring their use of any data complies with
+applicable laws and the terms of service of the relevant source.
+
+---
+
 ## About Happy Endpoint
 
 [Happy Endpoint](https://happyendpoint.com) builds and maintains real-time data
