@@ -331,6 +331,27 @@ Found something outdated or missing? Open an issue or PR. Market data changes fa
 
 ---
 
-## License
+## Related repos
 
-MIT
+- [bayut-api](https://github.com/happyendpointhq/bayut-api) - full Bayut endpoint documentation
+- [propertyfinder-api](https://github.com/happyendpointhq/propertyfinder-api) - PropertyFinder UAE data
+- [bayut-api-python-examples](https://github.com/happyendpointhq/bayut-api-python-examples) - Python client and examples
+- [dubai-rental-yield-calculator](https://github.com/happyendpointhq/dubai-rental-yield-calculator) - gross and net yields by area
+- [dubai-property-price-tracker](https://github.com/happyendpointhq/dubai-property-price-tracker) - scheduled price monitoring
+
+---
+
+## About Happy Endpoint
+
+[Happy Endpoint](https://happyendpoint.com) builds and maintains real-time data
+APIs for property portals, retailers, and marketplaces. All APIs are available on
+RapidAPI with a free tier.
+
+- Catalogue: [happyendpoint.com/library](https://happyendpoint.com/library)
+- Datasets: [happyendpoint.com/datasets](https://happyendpoint.com/datasets)
+- Documentation: [docs.happyendpoint.com](https://docs.happyendpoint.com)
+- Contact: happyendpointhq@gmail.com
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).
