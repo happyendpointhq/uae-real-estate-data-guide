@@ -335,6 +335,7 @@ Found something outdated or missing? Open an issue or PR. Market data changes fa
 
 - [bayut-api](https://github.com/happyendpointhq/bayut-api) - full Bayut endpoint documentation
 - [propertyfinder-api](https://github.com/happyendpointhq/propertyfinder-api) - PropertyFinder UAE data
+- [uae-real-estate-api](https://github.com/happyendpointhq/uae-real-estate-api) - Bayut and PropertyFinder through one API, with asking-vs-paid and transaction export examples
 - [bayut-api-python-examples](https://github.com/happyendpointhq/bayut-api-python-examples) - Python client and examples
 - [dubai-rental-yield-calculator](https://github.com/happyendpointhq/dubai-rental-yield-calculator) - gross and net yields by area
 - [dubai-property-price-tracker](https://github.com/happyendpointhq/dubai-property-price-tracker) - scheduled price monitoring
