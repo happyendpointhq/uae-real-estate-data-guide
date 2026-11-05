@@ -24,7 +24,7 @@ This guide covers the practical options available in 2026 for developers, resear
 | PropertyFinder API (Happy Endpoint) | Real-time API | UAE-wide listings | RapidAPI - free tier available |
 | UAE Real Estate API (Happy Endpoint) | Real-time API | UAE property data | RapidAPI |
 | Dubai Land Department (DLD) | Official data | Transaction records | Government portal (limited) |
-| Bayut Bulk Dataset (Happy Endpoint) | Static dataset | 100K+ records | Purchase - happyendpointhq@gmail.com |
+| Bayut Bulk Dataset (Happy Endpoint) | Static dataset | 100K+ records | Purchase - hello@happyendpoint.com |
 | Web scraping | DIY | Anything | High maintenance, legal risk |
 
 For most use cases, the Bayut API is the best starting point. It covers the most data, has the best documentation, and has a free tier.
@@ -299,7 +299,7 @@ If you need large-scale historical data that goes beyond what the real-time API 
 - CSV and JSON formats
 - Suitable for ML model training, econometric analysis, and large-scale research
 
-Contact: happyendpointhq@gmail.com
+Contact: hello@happyendpoint.com
 Website: https://happyendpoint.com
 
 ---
@@ -321,7 +321,7 @@ Full list: https://rapidapi.com/user/happyendpoint
 - Bayut API docs: https://bayutapi.dev
 - Happy Endpoint: https://happyendpoint.com
 - Twitter: https://x.com/happyendpointhq
-- Email: happyendpointhq@gmail.com
+- Email: hello@happyendpoint.com
 
 ---
 
@@ -368,7 +368,7 @@ RapidAPI with a free tier.
 - Catalogue: [happyendpoint.com/library](https://happyendpoint.com/library)
 - Datasets: [happyendpoint.com/datasets](https://happyendpoint.com/datasets)
 - Documentation: [docs.happyendpoint.com](https://docs.happyendpoint.com)
-- Contact: happyendpointhq@gmail.com
+- Contact: hello@happyendpoint.com
 
 ## Licence
 
